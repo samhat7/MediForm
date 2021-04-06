@@ -21,7 +21,7 @@
       <Label layoutX="150.0" layoutY="211.0" text="Testing Cost:" />
       <Label layoutX="143.0" layoutY="244.0" text="Overnight Cost:" />
       <Label layoutX="150.0" layoutY="301.0" text="Total Cost:" />
-      <TextField layoutX="226.0" layoutY="72.0" />
+      <TextField layoutX="226.0" layoutY="73.0" />
       <TextField layoutX="226.0" layoutY="103.0" />
       <TextField layoutX="226.0" layoutY="139.0" prefHeight="26.0" prefWidth="62.0" />
       <TextField layoutX="242.0" layoutY="171.0" prefHeight="26.0" prefWidth="82.0" />
