@@ -17,8 +17,14 @@ import java.util.ResourceBundle;
 public class loginController implements Initializable {
 
     @FXML
+    private PasswordField password;
+
+    @FXML
+    private TextField username;
+
+    @FXML
     void toRegHome(ActionEvent event) throws IOException {
-        Parent regHomeParent = FXMLLoader.load(getClass().getResource("enterID.fxml"));
+        Parent regHomeParent = FXMLLoader.load(getClass().getResource("toRegHome.fxml"));
         Scene regHomeScene = new Scene(regHomeParent);
 
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
