@@ -26,19 +26,19 @@
       <Label layoutX="81.0" layoutY="331.0" text="Emergency Contact Phone Number:" />
       <Label layoutX="186.0" layoutY="362.0" text="Reason for Visit:" />
       <Label layoutX="454.0" layoutY="54.0" text="Patient ID #:" />
-      <TextField layoutX="278.0" layoutY="50.0" />
-      <TextField layoutX="278.0" layoutY="80.0" />
-      <TextField layoutX="279.0" layoutY="108.0" />
-      <TextField layoutX="279.0" layoutY="134.0" />
-      <TextField layoutX="278.0" layoutY="161.0" />
-      <TextField layoutX="278.0" layoutY="188.0" />
-      <TextField layoutX="278.0" layoutY="217.0" />
-      <TextField layoutX="278.0" layoutY="245.0" />
-      <TextField layoutX="278.0" layoutY="272.0" />
-      <TextField layoutX="278.0" layoutY="298.0" />
-      <TextField layoutX="278.0" layoutY="327.0" />
-      <TextField layoutX="279.0" layoutY="358.0" prefHeight="26.0" prefWidth="150.0" />
-      <TextField layoutX="526.0" layoutY="50.0" prefHeight="26.0" prefWidth="59.0" />
+      <TextField fx:id="firstName1" layoutX="278.0" layoutY="50.0" />
+      <TextField fx:id="lastName2" layoutX="278.0" layoutY="80.0" />
+      <TextField fx:id="dateOfBirth1" layoutX="279.0" layoutY="108.0" />
+      <TextField fx:id="address1" layoutX="279.0" layoutY="134.0" />
+      <TextField fx:id="city1" layoutX="278.0" layoutY="161.0" />
+      <TextField fx:id="state1" layoutX="278.0" layoutY="188.0" />
+      <TextField fx:id="phoneNumber1" layoutX="278.0" layoutY="217.0" />
+      <TextField fx:id="insuranceProvider1" layoutX="278.0" layoutY="245.0" />
+      <TextField fx:id="primaryPhysician1" layoutX="278.0" layoutY="272.0" />
+      <TextField fx:id="emergContactName1" layoutX="278.0" layoutY="298.0" />
+      <TextField fx:id="emergPhoneNumber1" layoutX="278.0" layoutY="327.0" />
+      <TextField fx:id="reasonForVisit1" layoutX="279.0" layoutY="358.0" prefHeight="26.0" prefWidth="150.0" />
+      <TextField fx:id="patientID1" layoutX="526.0" layoutY="50.0" prefHeight="26.0" prefWidth="59.0" />
       <Button layoutX="520.0" layoutY="358.0" mnemonicParsing="false" onAction="#toRegHome1" text="Submit" />
    </children>
 </AnchorPane>
