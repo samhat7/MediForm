@@ -1,6 +1,8 @@
 plugins {
     id 'groovy'
     id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.9'
 }
 
 version '1.0-SNAPSHOT'
