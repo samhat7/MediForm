@@ -16,33 +16,37 @@
                   <Font size="24.0" />
                </font>
             </Label>
-            <Label layoutX="92.0" layoutY="68.0" text="First Name:" />
-            <Label layoutX="92.0" layoutY="95.0" text="Last Name:" />
+            <Label layoutX="32.0" layoutY="68.0" text="First Name:" />
+            <Label layoutX="32.0" layoutY="95.0" text="Last Name:" />
             <Label layoutX="248.0" layoutY="125.0" text="Patient Vitals">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
-            <TextField fx:id="firstName1" layoutX="164.0" layoutY="64.0" />
-            <TextField fx:id="lastName1" layoutX="165.0" layoutY="91.0" />
-            <Label layoutX="94.0" layoutY="163.0" text="Height:" />
-            <Label layoutX="272.0" layoutY="163.0" text="Weight:" />
-            <Label layoutX="76.0" layoutY="200.0" text="Temperature: " />
-            <Label layoutX="252.0" layoutY="200.0" text="Blood Pressure:" />
+            <TextField fx:id="firstName1" layoutX="100.0" layoutY="64.0" />
+            <TextField fx:id="lastName1" layoutX="100.0" layoutY="91.0" />
+            <Label layoutX="52.0" layoutY="163.0" text="Height:" />
+            <Label layoutX="220.0" layoutY="163.0" text="Weight:" />
+            <Label layoutX="14.0" layoutY="200.0" text="Temperature: " />
+            <Label layoutX="179.0" layoutY="200.0" text="Blood Pressure:" />
             <Label layoutX="83.0" layoutY="233.0" text="Symptoms:" />
             <Label layoutX="108.0" layoutY="267.0" text="Medications:" />
             <Label layoutX="127.0" layoutY="296.0" text="Tests:" />
             <Label layoutX="114.0" layoutY="324.0" text="Diagnosis:" />
-            <TextField fx:id="height1" layoutX="157.0" layoutY="158.0" prefHeight="26.0" prefWidth="67.0" />
-            <TextField fx:id="temp1" layoutX="153.0" layoutY="196.0" prefHeight="26.0" prefWidth="74.0" />
-            <TextField fx:id="weight1" layoutX="334.0" layoutY="159.0" prefHeight="26.0" prefWidth="82.0" />
-            <TextField fx:id="bloodPress1" layoutX="342.0" layoutY="196.0" prefHeight="26.0" prefWidth="74.0" />
+            <TextField fx:id="height1" layoutX="100.0" layoutY="159.0" prefHeight="26.0" prefWidth="67.0" />
+            <TextField fx:id="temp1" layoutX="96.0" layoutY="196.0" prefHeight="26.0" prefWidth="74.0" />
+            <TextField fx:id="weight1" layoutX="272.0" layoutY="159.0" prefHeight="26.0" prefWidth="82.0" />
+            <TextField fx:id="bloodPress1" layoutX="272.0" layoutY="196.0" prefHeight="26.0" prefWidth="74.0" />
             <TextField fx:id="symptoms1" layoutX="153.0" layoutY="229.0" prefHeight="26.0" prefWidth="272.0" />
             <TextField fx:id="medications1" layoutX="185.0" layoutY="263.0" prefHeight="26.0" prefWidth="202.0" />
             <TextField fx:id="tests1" layoutX="185.0" layoutY="292.0" prefHeight="26.0" prefWidth="202.0" />
             <TextField fx:id="diagnosis1" layoutX="185.0" layoutY="320.0" prefHeight="26.0" prefWidth="202.0" />
             <Button layoutX="31.0" layoutY="346.0" mnemonicParsing="false" onAction="#toNurseMenu" text="Back" />
             <Button layoutX="502.0" layoutY="346.0" mnemonicParsing="false" onAction="#submitVitals" text="Submit" />
+            <Label layoutX="272.0" layoutY="82.0" text="Assigned Physician:" />
+            <TextField fx:id="assignedPhysician1" layoutX="379.0" layoutY="79.0" />
+            <Label layoutX="379.0" layoutY="188.0" text="Pulse Rate:" />
+            <TextField fx:id="pulseRate1" layoutX="443.0" layoutY="184.0" prefHeight="26.0" prefWidth="67.0" />
          </children>
       </AnchorPane>
    </children>

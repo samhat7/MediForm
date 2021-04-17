@@ -4,7 +4,6 @@ import javafx.scene.control.CheckBox;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-
 import javafx.event.ActionEvent;
 import java.io.IOException;
 
@@ -70,6 +69,15 @@ public class diagnoseController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
+        brokenBone.setSelected(Main.patient.getBrokenBone());
+        heartAttack.setSelected(Main.patient.getHeartAttack());
+        laceration.setSelected(Main.patient.getLaceration());
+        hivAids.setSelected(Main.patient.getHivAIDS());
+        liverFailure.setSelected(Main.patient.getLiverFailure());
+        kidneyFailure.setSelected(Main.patient.getKidneyFailure());
+        diabetes.setSelected(Main.patient.getDiabetes());
+        inflammatoryBowlDisease.setSelected(Main.patient.getInfammatoryBowlDisease());
+        stroke.setSelected(Main.patient.getStroke());
+        tornMuscleTendon.setSelected(Main.patient.getTornMuscleTendon());
     }
 }

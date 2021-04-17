@@ -59,7 +59,6 @@ public class regNewPatientController implements Initializable {
     @FXML
     private TextField medHistory1;
     
-
     @FXML
     private TextField dateOfVisit1;
 

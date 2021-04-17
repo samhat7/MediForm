@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="diagnoseController">
    <children>
       <Label layoutX="250.0" layoutY="26.0" text="Diagnose">
@@ -24,6 +23,6 @@
       <CheckBox fx:id="inflammatoryBowlDisease" layoutX="335.0" layoutY="253.0" mnemonicParsing="false" text="Inflammatory Bowl Disease" />
       <CheckBox fx:id="stroke" layoutX="205.0" layoutY="281.0" mnemonicParsing="false" text="Stroke" />
       <CheckBox fx:id="tornMuscleTendon" layoutX="335.0" layoutY="306.0" mnemonicParsing="false" text="Torn Muscle Tendon" />
-      <Button layoutX="505.0" layoutY="351.0" mnemonicParsing="false" text="Diagnose" />
+      <Button layoutX="505.0" layoutY="351.0" mnemonicParsing="false" onAction="#orderTest" text="Diagnose" />
    </children>
 </AnchorPane>
