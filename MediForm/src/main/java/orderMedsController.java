@@ -41,14 +41,14 @@ public class orderMedsController implements Initializable{
 
     @FXML
     void orderMeds(ActionEvent event) throws IOException {
-        Main.patient.setPain(Integer.parseInt(pain.getText()));
-        Main.patient.setAnticoagulant(Integer.parseInt(antiCoagulant.getText()));
-        Main.patient.setBetaBlocker(Integer.parseInt(betaBlocker.getText()));
-        Main.patient.setAntiretroviral(Integer.parseInt(antiRetroviral.getText()));
-        Main.patient.setInsulin(Integer.parseInt(insulin.getText()));
-        Main.patient.setAntiInflammatory(Integer.parseInt(antiInflammatory.getText()));
-        Main.patient.setUrsodiol(Integer.parseInt(ursodiol.getText()));
-        Main.patient.setCalciumReducer(Integer.parseInt(calciumReducer.getText()));
+        Main.patient.setPain(Main.patient.getPain() + Integer.parseInt(pain.getText()));
+        Main.patient.setAnticoagulant(Main.patient.getAnticoagulant() + Integer.parseInt(antiCoagulant.getText()));
+        Main.patient.setBetaBlocker(Main.patient.getBetaBlocker() + Integer.parseInt(betaBlocker.getText()));
+        Main.patient.setAntiretroviral(Main.patient.getAntiretroviral() + Integer.parseInt(antiRetroviral.getText()));
+        Main.patient.setInsulin(Main.patient.getInsulin() + Integer.parseInt(insulin.getText()));
+        Main.patient.setAntiInflammatory(Main.patient.getAntiInflammatory() + Integer.parseInt(antiInflammatory.getText()));
+        Main.patient.setUrsodiol(Main.patient.getUrsodiol() + Integer.parseInt(ursodiol.getText()));
+        Main.patient.setCalciumReducer(Main.patient.getCalciumReducer() + Integer.parseInt(calciumReducer.getText()));
 
         DatabaseInterface.updatePatient(Main.patient);
 

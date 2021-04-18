@@ -38,6 +38,9 @@ public class printDischargeController implements Initializable{
     
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
+        String name = Main.patient.getName();
+        String[] nameSplit = name.split(" ");
+        firstName.setText(nameSplit[0]);
+        lastName.setText(nameSplit[1]);
     }
 }

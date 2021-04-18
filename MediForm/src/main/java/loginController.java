@@ -23,6 +23,13 @@ public class loginController implements Initializable {
 
     @FXML
     void loginUser(ActionEvent event) throws IOException {
+        if(username.getText().length() == 0 || password.getText().length() == 0){
+            Alert alert1 = new Alert(Alert.AlertType.ERROR);
+            alert1.setContentText("Username or Password field is empty.");
+            alert1.showAndWait();
+            return;
+        }
+        
         Main.user = DatabaseInterface.findUser(username.getText());
 
         //check entered pass against database pass
@@ -30,14 +37,7 @@ public class loginController implements Initializable {
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setContentText("Username or password was invalid. Please try again.");
             alert.showAndWait();
-            //username.setText("Wrong");
             return;
-        }
-
-        if(username.getText().length() == 0 || password.getText().length() == 0){
-            Alert alert1 = new Alert(Alert.AlertType.ERROR);
-            alert1.setContentText("Username or Password field is empty.");
-            alert1.showAndWait();
         }
 
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();

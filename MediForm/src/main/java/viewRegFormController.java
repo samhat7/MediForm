@@ -77,6 +77,24 @@ public class viewRegFormController implements Initializable{
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        String name = Main.patient.getName();
+        String[] nameSplit = name.split(" ");
+        firstName1.setText(nameSplit[0]);
+        lastName1.setText(nameSplit[1]);
 
+        dateOfBirth1.setText(Main.patient.getDateOfBirth());
+        address1.setText(Main.patient.getAddress());
+        city1.setText(Main.patient.getCity());
+        state1.setText(Main.patient.getState());
+        phoneNumber1.setText(Main.patient.getPhone());
+        insuranceProvider1.setText(Main.patient.getInsuranceProvider());
+        primaryPhysician1.setText(Main.patient.getPrimaryPhysician());
+        emergContactName1.setText(Main.patient.getEmergencyContactName());
+        emergPhoneNumber1.setText(Main.patient.getEmergencyContactNumber());
+        reasonForVisit1.setText(Main.patient.getSymptoms());
+        insuranceID1.setText(Main.patient.getInsuranceID());
+        currentMeds1.setText(Main.patient.getMedicationName());
+        medHistory1.setText(Main.patient.getMedicalHistory());
+        dateOfVisit1.setText(Main.patient.getDateOfVisit());
     }
 }
