@@ -57,7 +57,7 @@ public class physicianMedicalFormController implements Initializable{
 
         DatabaseInterface.updatePatient(Main.patient);
 
-        Parent nurseMenuParent = FXMLLoader.load(getClass().getResource("nurseMenu.fxml"));
+        Parent nurseMenuParent = FXMLLoader.load(getClass().getResource("physicianMenu.fxml"));
         Scene nurseMenuScene = new Scene(nurseMenuParent);
         
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
