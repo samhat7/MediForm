@@ -13,7 +13,7 @@
             <Font size="24.0" />
          </font>
       </Label>
-      <Button layoutX="438.0" layoutY="296.0" mnemonicParsing="false" text="Add" />
+      <Button layoutX="438.0" layoutY="296.0" mnemonicParsing="false" onAction="#add" text="Add" />
       <Button layoutX="45.0" layoutY="347.0" mnemonicParsing="false" onAction="#toMainMenu1" text="Back" />
       <TextField fx:id="notes" layoutX="224.0" layoutY="89.0" prefHeight="148.0" prefWidth="150.0" />
       <Label layoutX="201.0" layoutY="268.0" text="Enter new note below to add note(s):" />

@@ -13,7 +13,7 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <TextField fx:id="patientID" layoutX="258.0" layoutY="187.0" prefHeight="26.0" prefWidth="84.0" />
+      <TextField fx:id="patientID" layoutX="177.0" layoutY="187.0" prefHeight="26.0" prefWidth="246.0" />
       <Button layoutX="504.0" layoutY="339.0" mnemonicParsing="false" onAction="#toNurseMenu" text="Next" />
    </children>
 </AnchorPane>
